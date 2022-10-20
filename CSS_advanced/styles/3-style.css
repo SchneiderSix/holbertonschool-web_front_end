@@ -6,8 +6,12 @@ body, a {
     color: #161616;
 }
 
-.card-category, .section-tagline {
-    color: #D73953;
+.section-tagline {
+    color: var(--color-primary);
+}
+
+.card-category {
+    color: var(--color-primary);
 }
 
 :root {
